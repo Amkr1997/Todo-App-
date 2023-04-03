@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #eee;
+}
+
+.div {
+  font-size: 2.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-flow {
+  margin-top: 4.8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #ddd;
+  padding: 0.4rem 1.2rem;
+  margin-bottom: 2.4rem;
+
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem #ccc);
+}
+
+.showTasks {
+  margin-top: 2.4rem;
+}
+
+.eachTasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.taskDesc {
+  font-size: 1.2rem;
+  padding: 0.6rem 2.4rem;
+  background-color: antiquewhite;
+  border-radius: 1.2rem;
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem #ccc);
+}
+
+.trash {
+  font-size: 1.8rem;
+}
